@@ -29,7 +29,7 @@ class Result
         {
             System.out.println("A grade");
         }
-        if(per<=90 && per>=80)
+        else if(per<=90 && per>=80)
         {
             System.out.println("B grade");
         }
@@ -37,7 +37,7 @@ class Result
         {
             System.out.println("C grade");
         }
-        else if(per>=59 && per<=35)
+        else if(per<=59 && per>=35)
         {
             System.out.println("D grade");
         }
